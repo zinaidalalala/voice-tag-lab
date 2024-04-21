@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Voice Tag Lab</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalise.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main class="main">
+  <header class="header">
+    <div class=" container header__container">
+      <div class="header__wrapper">
+        <a class="logo header__logo">
+          <img src="img/logo.svg" class="logo__img" width="68" height="22">
+        </a>
+        <nav class="nav header__nav">
+          <ul class="nav__list list flex">
+            <li class="nav__item">
+              <a href="#" class="nav__link">About us</a></li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Tags Samples</a></li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Pricing</a></li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Reviews</a></li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">FAQ</a></li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Contacts</a></li>
+          </ul>
+        </nav>
+        <a class="questions-link">
+          <svg width="32.000000" height="32.000000" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <defs>
+              <clippath id="clip182_1707">
+                <rect id="fluent:chat-bubbles-question-16-regular" width="24.000000" height="24.000000" transform="translate(4.000000 3.500000)" fill="white" fill-opacity="0"/>
+              </clippath>
+            </defs>
+            <circle id="Ellipse 759" cx="16.000000" cy="16.000000" r="16.000000" fill="#FFFFFF" fill-opacity="0.100000"/>
+            <circle id="Ellipse 766" cx="28.000000" cy="4.500000" r="4.000000" fill="#EB5757" fill-opacity="1.000000"/>
+            <rect id="question" width="24.000000" height="24.000000" transform="translate(4.000000 3.500000)" fill="#FFFFFF" fill-opacity="0"/>
+            <g clip-path="url(#clip182_1707)">
+              <path id="Vector" d="M14.5 16.8201C14.7487 16.8201 14.9871 16.9189 15.1629 17.0947C15.3387 17.2705 15.4375 17.509 15.4375 17.7576C15.4375 18.0063 15.3387 18.2446 15.1629 18.4204C14.9871 18.5964 14.7487 18.6951 14.5 18.6951C14.2514 18.6951 14.0129 18.5964 13.8371 18.4204C13.6613 18.2446 13.5625 18.0063 13.5625 17.7576C13.5625 17.509 13.6613 17.2705 13.8371 17.0947C14.0129 16.9189 14.2514 16.8201 14.5 16.8201ZM14.5 9.50464C16.0465 9.50464 17.2795 10.7737 17.2795 12.4297C17.2795 13.3086 16.9585 13.7915 16.189 14.4065L15.7735 14.729C15.4045 15.02 15.28 15.1792 15.2545 15.4011L15.238 15.635C15.2046 15.8196 15.1034 15.9849 14.9543 16.0984C14.8051 16.2117 14.6189 16.2654 14.4323 16.2485C14.2456 16.2314 14.0721 16.1453 13.9458 16.0068C13.8195 15.8682 13.7497 15.6875 13.75 15.5C13.75 14.645 14.065 14.1741 14.824 13.5681L15.241 13.2456C15.673 12.9006 15.781 12.7327 15.781 12.4297C15.781 11.5925 15.208 11.0046 14.5 11.0046C13.759 11.0046 13.2115 11.5537 13.2205 12.4221C13.2225 12.6211 13.1454 12.8125 13.0061 12.9546C12.9372 13.0249 12.8551 13.0811 12.7644 13.1196C12.6738 13.1582 12.5765 13.1787 12.478 13.1797C12.2791 13.1816 12.0875 13.1045 11.9455 12.9653C11.8034 12.8259 11.7225 12.636 11.7205 12.437C11.704 10.7302 12.928 9.50464 14.5 9.50464ZM7 14C7.00061 12.3772 7.52765 10.7981 8.50201 9.50024C9.47635 8.20239 10.8454 7.25537 12.4037 6.80176C13.9619 6.34814 15.6253 6.41235 17.1441 6.98438C18.6628 7.55664 19.955 8.60596 20.8266 9.9751C21.6982 11.344 22.1022 12.959 21.978 14.5771C21.8538 16.1953 21.208 17.7295 20.1376 18.9495C19.0672 20.1694 17.63 21.009 16.0417 21.3428C14.4534 21.6763 12.7998 21.4858 11.329 20.7996L7.897 21.4851C7.77603 21.5093 7.65097 21.5032 7.53293 21.4673C7.41486 21.4314 7.30746 21.3672 7.22025 21.2798C7.13303 21.1926 7.06866 21.0852 7.03284 20.9673C6.99704 20.8491 6.99094 20.7241 7.01501 20.603L7.7005 17.1697C7.23764 16.1772 6.9985 15.0952 7 14ZM14.5 8C13.473 7.99976 12.4631 8.26318 11.567 8.76489C10.6709 9.26685 9.91861 9.99023 9.38214 10.866C8.84567 11.7417 8.54297 12.7405 8.50302 13.7668C8.46307 14.793 8.68723 15.8123 9.15402 16.7271C9.23105 16.8779 9.25482 17.05 9.2215 17.2161L8.70551 19.7947L11.284 19.2786C11.45 19.2454 11.6223 19.269 11.773 19.3462C12.5811 19.7578 13.472 19.981 14.3788 19.999C15.2856 20.0168 16.1846 19.8289 17.0082 19.4492C17.8319 19.0698 18.5588 18.5083 19.1343 17.8074C19.7098 17.1064 20.1189 16.2842 20.3309 15.4023C20.5428 14.5205 20.5521 13.6021 20.358 12.7161C20.1639 11.8301 19.7715 10.9998 19.2103 10.2874C18.6491 9.57495 17.9337 8.99902 17.1178 8.60278C16.302 8.20654 15.407 8.00049 14.5 8ZM12.79 22.8381C14.1228 23.916 15.7858 24.5029 17.5 24.5C18.631 24.5 19.705 24.2495 20.6695 23.7996L24.103 24.4851C24.224 24.5093 24.3491 24.5032 24.4671 24.4673C24.5851 24.4314 24.6925 24.3672 24.7798 24.2798C24.867 24.1926 24.9314 24.0852 24.9672 23.9673C25.003 23.8491 25.0091 23.7241 24.985 23.603L24.2995 20.1711C24.7495 19.2065 25 18.1311 25 17C25.0025 15.2864 24.4157 13.624 23.338 12.2915C23.5518 13.4021 23.5553 14.5427 23.3485 15.6545C23.663 17.0291 23.4852 18.4702 22.846 19.7271C22.769 19.8779 22.7452 20.05 22.7785 20.2161L23.2945 22.7947L20.7145 22.2786C20.549 22.2456 20.3773 22.2695 20.227 22.3462C18.97 22.9863 17.5279 23.1641 16.153 22.8486C15.0412 23.0554 13.9005 23.0518 12.79 22.8381Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero"/>
+            </g>
+          </svg>
+        </a>
+     <div class="btn-wrapper">
+      <button class="btn header__btn">
+        Get your tag
+      </button>
+     </div>
+      </div>
+   <div class="hero">
+    <h1 class="main-title section-title">Voice
+Tag Lab</h1>
+    <p class="hero__secure descr">
+      The best custom voice tags online
+    </p>
+    <p class="hero__descr descr">
+Voice Tag is&nbsp;a&nbsp;necessity for every music producer. We&nbsp;
+offer a&nbsp;wide range of&nbsp;voices and professional service.
+Brand your sound with&nbsp;us! Become known
+    </p>
+    <button class="btn hero__btn btn--background">
+      Get your custom tag
+    </button>
+  </div>
+    </div>
+</header>
+    <section class="rules">
+      <div class="container rules__container">
+  <h2 class="section-title rules__title">
+    How it works?
+  </h2>
+  <div class="rules__wrapper">
+    <ul class="rules__list list flex">
+      <li class="rules__item flex">
+        <div class="rules__svg-wrapper">
+          <svg width="72" height="67" viewBox="0 0 40 67" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M20.9061 67H39.1311V0.129997H23.1111C17.2611 4.54 9.65609 7.735 0.116094 9.085V23.71C8.75609 22.63 15.9561 20.11 20.9061 17.23V67Z" fill="url(#paint0_linear_182_1009)"/>
+            <defs>
+            <lineargradient id="paint0_linear_182_1009" x1="23" y1="-0.777778" x2="23" y2="67.5873" gradientUnits="userSpaceOnUse">
+            <stop stop-color="white"/>
+            <stop offset="1" stop-color="white" stop-opacity="0"/>
+            </lineargradient>
+            </defs>
+            </svg>
+        </div>
+          <p class="rules__descr rules__descr-first descr">
+            Listen to&nbsp;the audio samples and choose which voice(s) you want
+          </p>
+      </li>
+      <li class="rules__item flex">
+        <div class="rules__svg-wrapper">
+        <svg width="72" height="69" viewBox="0 0 64 69" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0.131914 69H63.9419V54.375H27.5369C38.2019 48.705 63.9869 37.86 63.9869 20.58C63.9869 7.93499 52.1069 0.644998 32.3069 0.644998C8.99691 0.644998 0.131914 10.59 0.131914 25.8H18.6719C18.6719 19.41 20.5619 14.91 32.0819 14.91C39.7769 14.91 44.1869 18.015 44.1869 21.84V21.885C44.1869 33.72 13.9019 45.555 0.131914 54.87V69Z" fill="url(#paint0_linear_182_1013)"/>
+          <defs>
+          <lineargradient id="paint0_linear_182_1013" x1="32" y1="1.22222" x2="32" y2="69.5873" gradientUnits="userSpaceOnUse">
+          <stop stop-color="white"/>
+          <stop offset="1" stop-color="white" stop-opacity="0"/>
+          </lineargradient>
+          </defs>
+          </svg>
+        </div>
+          <p class="rules__descr rules__descr-second descr">
+            Choose your package in the "Prices" section and click on the "Get your custom tag" button
+          </p>
+      </li>
+      <li class="rules__item flex">
+        <div class="rules__svg-wrapper">
+        <svg width="72" height="71" viewBox="0 0 66 71" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M33.0077 70.62C53.8877 70.62 65.6777 64.05 65.6777 50.415V50.145C65.6777 40.92 60.0977 35.97 51.4577 34.35V33.99C59.2427 32.505 64.6877 27.15 64.6877 19.095V18.87C64.6877 8.115 53.6177 0.644998 33.3677 0.644998C11.6777 0.644998 1.32773 10.68 1.32773 24.45V24.495H19.8227C19.8227 18.555 24.8177 15.045 32.8727 15.045C42.2327 15.045 45.0677 17.97 45.0677 21.795V21.93C45.0677 26.16 42.2777 28.32 34.4477 28.32H25.1327V41.1H34.6277C43.4027 41.1 46.0577 43.395 46.0577 48.03V48.165C46.0577 53.52 41.0627 56.175 32.9627 56.175C24.5477 56.175 18.7877 52.935 18.7877 46.77V46.725H0.0677345V46.86C0.0677345 63.735 12.6227 70.62 33.0077 70.62Z" fill="url(#paint0_linear_182_1017)"/>
+          <defs>
+          <lineargradient id="paint0_linear_182_1017" x1="33" y1="1.22222" x2="33" y2="69.5873" gradientUnits="userSpaceOnUse">
+          <stop stop-color="white"/>
+          <stop offset="1" stop-color="white" stop-opacity="0"/>
+          </lineargradient>
+          </defs>
+          </svg>
+        </div>
+          <p class="rules__descr rules__descr-third descr">
+            Fill out the form. Include your tag phrase(s), any requests like mood, effects, etc.
+          </p>
+      </li>
+    </ul>
+    <div class="rules__notification notification flex">
+      <span class="notification__span">
+        !
+      </span>
+     <div class="notification__wrapper">
+      <p class="rules__descr descr">
+        Don&rsquo;t&rsquo; worry about the pronunciation of&nbsp;your name.
+      </p>
+      <p class="rules__descr descr">
+        We&nbsp;will contact you to&nbsp;clarify&nbsp;it.
+      </p>
+     </div>
+      <span class="notification__span">
+        !
+      </span>
+    </div>
+  </div>
+ </div>
+    </section>
+    <section class="about">
+      <div class="container about__container">
+        <h2 class="section-title">
+          About us
+        </h2>
+        <ul class="about__list list flex">
+          <li class="about__item">
+            <div class="about__wrapper">
+              <h3 class="about__title"><a class="item__link">
+                Fast Delivery</a></h3>
+                <p class="about__descr descr">
+                  .WAV files will be&nbsp;sent 96&nbsp;hours after your payment is&nbsp;processed. The download link with your voice tag order will be&nbsp;sent to&nbsp;your email
+                </p>
+              </div>
+          </li>
+          <li class="about__item">
+         <div class="about__wrapper">
+          <h3 class="about__title"><a class="item__link">
+            Safety Payment</a></h3>
+            <p class="about__descr descr">
+              Pay via PayPal or&nbsp;with your credit or&nbsp;debit card. We&nbsp;also have some additional payment options in&nbsp;the order form
+            </p>
+         </div>
+          </li>
+          <li class="about__item">
+            <div class="about__wrapper">
+              <h3 class="about__title"><a class="item__link">
+                Package Deals
+              </a></h3>
+              <p class="about__descr descr">
+                Need multiple voice tags? We&nbsp;got special bulk pricing options. Check the <a href="#" class="text-link"> &laquo;Prices&raquo;</a> section for more info
+              </p>
+            </div>
+          </li>
+          <li class="about__item">
+           <div class="about__wrapper">
+            <h3 class="about__title"><a class="item__link">
+              4 Voice Actor Options</a></h3>
+              <p class="about__descr descr">
+                Choose from female, male, kid or&nbsp;anime voice. Or&nbsp;get multiple tags with different voices with package deals
+              </p>
+           </div>
+            </li>
+          <li class="about__item">
+            <div class="about__wrapper">
+              <h3 class="about__title"><a class="item__link">
+                Wet + Dry Recordings</a></h3>
+                <p class="about__descr descr">
+                  You will receive each tag mixed and unmixed, and recorded 3-5&nbsp;times. Use one or&nbsp;use them all!
+                </p>
+            </div>
+            </li>
+          <li class="about__item">
+           <div class="about__wrapper">
+            <h3 class="about__title"><a class="item__link">
+              2 Free Revisions
+            </a></h3>
+            <p class="about__descr descr">
+              Not the right sound for your brand? If&nbsp;you aren&rsquo;t happy with your voice tag, we&rsquo;ll re-record it&nbsp;or&nbsp;change the effects!
+            </p>
+           </div>
+          </li>
+        </ul>
+</div>
+    </section>
+    <section class="tags">
+      <div class="tags--offset container">
+        <h2 class="section-title">
+          Tags Samples
+        </h2>
+        <div class="tags__wrapper flex">
+          <div class="tags__list flex">
+            <div class="tags__item tags__item--male">
+              <h3 class="tags__title">
+                Male voice
+              </h3>
+            </div>
+            <div class="tags__item tags__item--female">
+              <h3 class="tags__title">
+                Female voice
+              </h3>
+            </div>
+          </div>
+            <div class="tags__list flex">
+              <div class="tags__item tags__item--anime">
+                <h3 class="tags__title">
+                  Anime voice
+                </h3>
+              </div>
+              <div class="tags__item tags__item--kid">
+                <h3 class="tags__title">
+                  Kid voice
+                </h3>
+              </div>
+            </div>
+        </div>
+        <div class="tags__container flex">
+          <div class="futures">
+            <h3 class="futures__title">
+              Futures
+            </h3>
+            <div class="futures__wrapper flex">
+              <ul class="futures__list list flex">
+                <li class="futures__item futures__item--first">
+                  <h4 class="futures__item-title">
+                    Multiple recordings
+                  </h4>
+                  <p class="futures__descr descr">
+                    We&nbsp;record each day at&nbsp;least 3&nbsp;times so&nbsp;you can choose the best one
+                  </p>
+                </li>
+                <li class="futures__item futures__item--second">
+                  <h4 class="futures__item-title">
+                    FX + Mixed + Dry
+                  </h4>
+                  <p class="futures__descr descr">
+                    We&nbsp;send 3&nbsp;variations of&nbsp;each voice tag: with sound&nbsp;FX, basic mixing, and the dry recording
+                  </p>
+                </li>
+              </ul>
+              <ul class="futures__list list flex">
+                <li class="futures__item futures__item--third">
+                  <h4 class="futures__item-title">
+                    HQ WAV files
+                  </h4>
+                  <p class="futures__descr descr">
+                    You will receive your voice tag(s) in&nbsp;the highest quality. WAV format 24&nbsp;Bit
+                  </p>
+                </li>
+                <li class="futures__item futures__item--fourth">
+                  <h4 class="futures__item-title">
+                    Fully Custom
+                  </h4>
+                  <p class="futures__descr descr">
+                    You can request any effects, style and all you want!
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="offers">
+            <h3 class="offers__title">
+              Ultimate Offer For Music Producers
+            </h3>
+            <ul class="offers__list list">
+              <li class="offers__item">
+                <p class="offers__descr descr">
+                Ultimate Offer For Music Producers
+                </p>
+              </li>
+              <li class="offers__item">
+                <p class="offers__descr descr">
+                  Custom Voice Tag + 10GB of drum, loop and midi kits
+                </p>
+              </li>
+            </ul>
+           <div class="btn-wrapper btn__wrapper--offers">
+            <button class="btn offers__btn">
+              I want it
+            </button>
+           </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="price">
+    <div class="container price__container">
+      <table class="price__table table">
+        <tr class="table__tr">
+          <th class="table__th table__th--main">
+            Pricing
+          </th>
+          <th class="table__th">
+            1 Tag
+          </th>
+          <th class="table__th">
+            2 Tag
+          </th>
+          <th class="table__th">
+            3 Tag
+          </th>
+          <th class="table__th">
+            4 Tag
+          </th>
+        </tr>
+        <tr class="table__tr">
+          <td class="table__td table__td--pricing">
+            <span class="span--voices">      1 Voice
+            </span>
+            You can pick any voice
+          </td>
+          <td class="table__td table__td--full">
+            <span class="span--dollar">$31</span> $24.90
+          </td>
+          <td class="table__td table__td--full">
+            <span class="span--dollar">$31</span>  $39.90
+          </td>
+          <td class="table__td table__td--full">
+            <span class="span--dollar">$31</span>  $49.90
+          </td>
+          <td class="table__td table__td--full">
+            <span class="span--dollar">$31</span>  $59.90
+          </td>
+        </tr>
+        <tr class="table__tr">
+          <td class="table__td table__td--pricing">
+            <span class="span--voices">    2 Voices
+            </span>
+            You can pick any 2 voices
+          </td>
+          <td class="table__td table__td--empty"></td>
+          <td class="table__td table__td--full">
+            <span class="span--dollar">$31</span>  $44.90
+          </td>
+          <td class="table__td table__td--full">
+            <span class="span--dollar">$31</span>  $59.90
+          </td>
+          <td class="table__td table__td--full">
+            <span class="span--dollar">$31</span>  $69.90
+          </td>
+        </tr>
+        <tr class="table__tr">
+          <td class="table__td table__td--pricing">
+            <span class="span--voices">
+              3 Voices
+            </span>
+            You can pick any 3 voices
+          </td>
+          <td class="table__td table__td--empty"></td>
+          <td class="table__td table__td--empty"></td>
+          <td class="table__td table__td--full">
+           <span class="span--dollar">$31</span>  $64.90
+          </td>
+          <td class="table__td table__td--full">
+            <span class="span--dollar">$31</span>  $74.90
+          </td>
+        </tr>
+        <tr class="table__tr">
+          <td class="table__td table__td--pricing">
+            <span class="span--voices"> 4 Voices
+              </span>
+            You can pick all 4 voices
+          </td>
+          <td class="table__td table__td--empty"></td>
+          <td class="table__td table__td--empty"></td>
+          <td class="table__td table__td--empty"></td>
+          <td class="table__td table__td--full">
+            <span class="span--dollar">$31</span>  $79.90
+          </td>
+        </tr>
+      </table>
+      <button class="btn btn--background table__btn">
+        Get your custom tag
+      </button>
+    </div>
+    </section>
+    <section class="reviews">
+      <div class="container">
+        <h2 class="section-title">
+          Reviews
+        </h2>
+<div class="reviews__container">
+  <ul class="reviews__list list">
+    <li class="reviews__item reviews__item--left reviews__item--first">
+      <p class="reviews__descr descr">
+        recieved them.. They are perfect.. thank you for your serious 👍
+      </p>
+    </li>
+    <li class="reviews__item reviews__item--left reviews__item--second">
+      <p class="reviews__descr descr">
+        If someone ask me for a voice tag, i will recommand your work
+      </p>
+    </li>
+    <li class="reviews__item reviews__item--left reviews__item--third">
+      <p class="reviews__descr descr">
+        Man you da shit bruh these go I’ll be at you for more business 4sure 💯 and do you mix and master? I do too but i be getting bogged down i could use the help
+      </p>
+    </li>
+    <li class="reviews__item reviews__item--left reviews__item--fourth">
+      <p class="reviews__ descr">
+        i’ve download it and they are dope thanks man
+      </p>
+    </li>
+  </ul>
+  <div class="reviews__wrapper">
+    <div class="instagram">
+      <div class="instagram__wrapper">
+        <svg class="instagram__svg" width="40.000000" height="40.000000" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <defs>
+            <clippath id="clip200_2344">
+              <rect id="akar-icons:instagram-fill" width="40.000000" height="40.000000" fill="white" fill-opacity="0"/>
+            </clippath>
+          </defs>
+          <rect id="instagram-fill" width="40.000000" height="40.000000" fill="#FFFFFF" fill-opacity="0"/>
+          <g clip-path="url(#clip200_2344)">
+            <path id="ector" d="M12.4416 1.77673C14.3966 1.68677 15.02 1.66675 20 1.66675C24.98 1.66675 25.6033 1.68835 27.5566 1.77673C29.51 1.86511 30.8433 2.17676 32.01 2.62842C33.2316 3.09009 34.34 3.81177 35.2566 4.74512C36.19 5.66003 36.91 6.76672 37.37 7.99011C37.8233 9.15674 38.1333 10.4901 38.2233 12.4401C38.3133 14.3984 38.3333 15.0217 38.3333 20.0001C38.3333 24.9801 38.3116 25.6034 38.2233 27.5585C38.135 29.5084 37.8233 30.8418 37.37 32.0084C36.9099 33.2319 36.1888 34.3405 35.2566 35.2567C34.34 36.1901 33.2316 36.91 32.01 37.3701C30.8433 37.8234 29.51 38.1334 27.56 38.2234C25.6033 38.3135 24.98 38.3334 20 38.3334C15.02 38.3334 14.3966 38.3118 12.4416 38.2234C10.4916 38.1351 9.15829 37.8234 7.99162 37.3701C6.76816 36.91 5.65967 36.1888 4.74329 35.2567C3.81059 34.3412 3.08882 33.2333 2.6283 32.0101C2.17662 30.8434 1.86662 29.5101 1.77663 27.5601C1.68663 25.6018 1.66663 24.9784 1.66663 20.0001C1.66663 15.0201 1.68829 14.3967 1.77663 12.4434C1.86496 10.4901 2.17662 9.15674 2.6283 7.99011C3.08949 6.76685 3.81183 5.65894 4.74496 4.74341C5.66003 3.81091 6.76741 3.08911 7.98996 2.62842C9.15663 2.17676 10.49 1.8667 12.44 1.77673L12.4416 1.77673ZM27.4083 5.07678C25.475 4.9884 24.895 4.97009 20 4.97009C15.105 4.97009 14.525 4.9884 12.5916 5.07678C10.8033 5.15845 9.8333 5.45679 9.18663 5.70837C8.33163 6.04175 7.71996 6.43677 7.07829 7.07837C6.47003 7.67017 6.00192 8.3905 5.7083 9.18677C5.45662 9.83337 5.15829 10.8035 5.07663 12.5918C4.9883 14.525 4.96996 15.1051 4.96996 20.0001C4.96996 24.8951 4.9883 25.4751 5.07663 27.4084C5.15829 29.1968 5.45662 30.1667 5.7083 30.8135C6.00163 31.6084 6.46996 32.3301 7.07829 32.9218C7.66997 33.53 8.39163 33.9984 9.18663 34.2917C9.8333 34.5435 10.8033 34.8418 12.5916 34.9235C14.525 35.0117 15.1033 35.03 20 35.03C24.8966 35.03 25.475 35.0117 27.4083 34.9235C29.1966 34.8418 30.1666 34.5435 30.8133 34.2917C31.6683 33.9584 32.28 33.5635 32.9216 32.9218C33.53 32.3301 33.9983 31.6084 34.2916 30.8135C34.5433 30.1667 34.8416 29.1968 34.9233 27.4084C35.0116 25.4751 35.03 24.8951 35.03 20.0001C35.03 15.1051 35.0116 14.525 34.9233 12.5918C34.8416 10.8035 34.5433 9.83337 34.2916 9.18677C33.9583 8.33179 33.5633 7.72009 32.9216 7.07837C32.3298 6.47021 31.6095 6.00208 30.8133 5.70837C30.1666 5.45679 29.1966 5.15845 27.4083 5.07678ZM17.6583 25.6517C18.9661 26.1962 20.4223 26.2697 21.7782 25.8596C23.1341 25.4496 24.3056 24.5817 25.0927 23.4038C25.8797 22.2261 26.2334 20.8115 26.0934 19.402C25.9534 17.9923 25.3283 16.675 24.325 15.675C23.6854 15.0359 22.912 14.5464 22.0605 14.2419C21.209 13.9375 20.3007 13.8257 19.4008 13.9144C18.5009 14.0032 17.6319 14.2904 16.8563 14.7552C16.0807 15.2202 15.4179 15.8513 14.9155 16.6031C14.4131 17.355 14.0836 18.2089 13.9508 19.1034C13.818 19.9978 13.8852 20.9105 14.1475 21.776C14.4098 22.6414 14.8608 23.4377 15.4678 24.1079C16.0749 24.7782 16.823 25.3054 17.6583 25.6517ZM13.3366 13.3368C14.2117 12.4617 15.2505 11.7676 16.3938 11.2941C17.5371 10.8204 18.7625 10.5767 20 10.5767C21.2375 10.5767 22.4628 10.8204 23.6061 11.2941C24.7494 11.7676 25.7883 12.4617 26.6633 13.3368C27.5383 14.2118 28.2325 15.2506 28.706 16.3939C29.1796 17.5372 29.4233 18.7626 29.4233 20.0001C29.4233 21.2375 29.1796 22.463 28.706 23.6062C28.2325 24.7495 27.5383 25.7883 26.6633 26.6635C24.8961 28.4307 22.4992 29.4235 20 29.4235C17.5007 29.4235 15.1039 28.4307 13.3366 26.6635C11.5694 24.8962 10.5766 22.4993 10.5766 20.0001C10.5766 17.5009 11.5694 15.104 13.3366 13.3368ZM31.5133 11.9801C31.7301 11.7755 31.9037 11.5295 32.0238 11.2567C32.1439 10.9839 32.208 10.6897 32.2123 10.3916C32.2167 10.0936 32.1612 9.79761 32.0491 9.52148C31.937 9.24524 31.7707 8.99426 31.5599 8.78345C31.3491 8.57275 31.0982 8.40637 30.8219 8.29431C30.5457 8.18225 30.2498 8.12671 29.9518 8.1311C29.6537 8.13538 29.3595 8.19946 29.0867 8.31958C28.8138 8.4397 28.5678 8.61328 28.3633 8.83008C27.9655 9.25183 27.7477 9.81201 27.7561 10.3916C27.7646 10.9713 27.9986 11.5249 28.4086 11.9348C28.8185 12.3447 29.3721 12.5789 29.9518 12.5873C30.5314 12.5957 31.0916 12.3779 31.5133 11.9801Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+          </g>
+        </svg>
+        <div class="instagram__container">
+          <span class="instagram__descr">
+            more reviews
+          </span>
+            <span class="instagram__descr">
+              on our instagram
+          </span>
+        </div>
+          </div>
+
+    <img class="shtrihcode" src="img/shtrihcode.svg" width="206" height="206" alt="shtrihcode">
+  <a href="#" class="instagram__link">
+    @voicetaglab
+  </a>
+  </div>
+</div>
+  <ul class="reviews__list list">
+    <li class="reviews__item reviews__item--right reviews__item--fifth">
+      <p class="reviews__descr descr">
+        Thanks ! I just got it appreciate it I’ll difinitely be buying another one in the future 👍🏾👍🏾🤘🏾🤘🏾🔥
+      </p>
+    </li>
+    <li class="reviews__item reviews__item--right reviews__item--sixth">
+      <p class="reviews__descr descr">
+        Yo bro that’s sweet man thank you 🙏 love it
+      </p>
+    </li>
+    <li class="reviews__item reviews__item--right reviews__item--seventh">
+      <p class="reviews__descr descr">
+        Thank you very much!! It was fiery!!! The wait was worth it 🔥🔥🔥🔥🖤🔥🖤🔥🖤🔥🖤🖤🔥🖤🔥🖤🔥
+      </p>
+    </li>
+    <li class="reviews__item reviews__item--right reviews__item--eighth">
+      <p class="reviews__descr descr">
+        amazing that’s exactly it 😍 you are incredible i don’t have the words ❤️
+      </p>
+    </li>
+  </ul>
+</div>
+      </div>
+    </section>
+    <section class="faq">
+      <div class="container faq__container">
+        <h2 class="section-title faq__title">
+          FAQ
+        </h2>
+        <ul class="faq__list list">
+          <li class="faq__item">
+            <h3 class="faq__subtitle">
+            When will I receive my tags?
+          </h3>
+          <p class="faq__descr descr">
+            Please allow up to 4 days for your custom tag.
+          </p>
+        </li>
+          <li class="faq__item">
+            <h3 class="faq__subtitle">
+            How do you know how to pronounce my name correctly?
+          </h3>
+          <p class="faq__descr descr">
+            We will contact you after you place your order. Or you can enter the pronunciation in the <a class="faq__link" href="#">«Your requests»</a> field in the order form.
+          </p>
+        </li>
+          <li class="faq__item">
+            <h3 class="faq__subtitle">
+            Can I use my voice tag for commercial projects?
+          </h3>
+          <p class="faq__descr descr">
+            Yes, you have the full right to use it. Brand yourself! Become known!
+          </p>
+        </li>
+          <li class="faq__item">
+            <h3 class="faq__subtitle">
+              In what format will I receive my tag?
+          </h3>
+          <p class="faq__descr descr">
+            All tags are sent in HIGH QUALITY WAV format. We make at least 3 recordings, each with sound FX, basic mix and the dry recording.
+          </p>
+        </li>
+          <li class="faq__item">
+            <h3 class="faq__subtitle">
+              What are voice actor options?
+          </h3>
+          <p class="faq__descr descr">
+            Choose from 4 different voice options: female, male, kids and anime voice. If you require more than one brand tags, we got some package deals for you. Check the <a class="faq__link" href="#"> «Prices»</a> section for more info!
+          </p>
+        </li>
+          <li class="faq__item">
+            <h3 class="faq__subtitle">
+              Can you make a vocal script?
+          </h3>
+          <p class="faq__descr descr">
+            Of course! Need a voiceover for your instructional video or a narrator for your commercial, film, or book reading? Email <a class="faq__link faq__mail" href="#">mail@voicetaglab.com</a> to get your price quote!
+          </p>
+        </li>
+          <li class="faq__item">
+            <h3 class="faq__subtitle">
+              What should I include in the «Your requests» section?
+          </h3>
+          <p class="faq__descr descr">
+            This is where you share a bit about how you want your voice tag to sound. This might include the style that best reflects your brand, or your desired special effects.
+          </p>
+        </li>
+          <li class="faq__item">
+            <h3 class="faq__subtitle">
+              Can I hear a tag before I pay?
+          </h3>
+          <p class="faq__descr descr">
+            No, we don't get started until your order is processed, but each tag is recorded several times and you get every recording - 3 to 5 in total! And we offer 2 free revisions if you aren’t satisfied. We deliver results!
+          </p>
+        </li>
+          <li class="faq__item revision">
+            <h3 class="faq__subtitle">
+              What is a revision?
+          </h3>
+          <p class="faq__descr descr">
+            A revision is a change to your tag. If you aren’t satisfied with the first version of your tag, we can revise it 2 times.
+          </p>
+          <h4 class="revision__title">
+            The revisions include changes to:
+          </h4>
+          <ul class="revision__list revision__list--first list">
+            <li class="revision__item revision__item--first">Effects</li>
+            <li class="revision__item revision__item--first">Tone</li>
+            <li class="revision__item revision__item--first">Speed</li>
+          </ul>
+          <h4 class="revision__title">
+            Revisions don’t include:
+          </h4>
+          <ul class="revision__list revision__list--second list">
+            <li class="revision__item revision__item--second">
+              Changes to the phrase wording. The phrase cannot be changed once the first version of the drop has been sent.
+            </li>
+            <li class="revision__item revision__item--second">
+              Changes to the voice actor. We can't change the person who works with your tag.
+            </li>
+          </ul>
+        </li>
+          <li class="faq__item">
+            <h3 class="faq__subtitle">
+              How long can a tag be?
+          </h3>
+          <p class="faq__descr descr">
+            A tag can only be one phrase of 7 words or less. Multiple phrases won't be accepted, but we offer some special pricing packages for multiple voice tags. If your tag is longer than 7 words, it is considered as 2 tags.
+          </p>
+        </li>
+          <li class="faq__item">
+            <h3 class="faq__subtitle">
+              Can I edit the phrase after purchase?
+          </h3>
+          <p class="faq__descr descr">
+            Yes, but you got only 8 hours after your order is confirmed.
+          </p>
+        </li>
+          <li class="faq__item">
+            <h3 class="faq__subtitle">
+              I don't have a tag phrase yet. Can I still order?
+          </h3>
+          <p class="faq__descr descr">
+            Yes, just include your producer name and we will contact you help to figure out what you need.
+          </p></li>
+          <li class="faq__item">
+            <h3 class="faq__subtitle">
+              Can you just add some effects for my own recording?
+          </h3>
+          <p class="faq__descr descr">
+            Yes, email us at <a class="faq__link fag__mail" href="#"> mail@voicetaglab.com </a> and we will discuss it.
+          </p>
+        </li>
+        </ul>
+      </div>
+    </section>
+    <section class="questions">
+      <div class="container questions__container">
+        <h2 class="section-title questions__title">
+          Have any question?
+        </h2>
+        <div class="questions__wrapper">
+          <form class="form" action="/submit-form" method="post">
+            <label for="email" class="form__label"> Email
+            </label>
+            <input class="form__input form__input--email" type="email" id="email" name="email" placeholder="Enter your email">
+            <button class="btn btn--close">
+              <svg class="form__svg form__svg--1" width="24.000000" height="24.000000" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <defs/>
+                <path id="icon" d="M12 2C6.47 2 2 6.46997 2 12C2 17.53 6.47 22 12 22C17.53 22 22 17.53 22 12C22 6.46997 17.53 2 12 2ZM12 20C7.59 20 4 16.4099 4 12C4 7.59009 7.59 4 12 4C16.41 4 20 7.59009 20 12C20 16.4099 16.41 20 12 20ZM12 10.5901L15.59 7L17 8.40991L13.41 12L17 15.5901L15.59 17L12 13.4099L8.41 17L7 15.5901L10.59 12L7 8.40991L8.41 7L12 10.5901Z" fill="#FFFFFF" fill-opacity="0.400000" fill-rule="evenodd"/>
+              </svg>
+            </button>
+            <label for="questions" class="form__label"> Questions
+            </label>
+            <input class="form__input form__input--questions" type="text" id="questions" name="questions" placeholder="Enter your questions">
+            <button class="btn btn--close">
+              <svg class="form__svg form__svg--2" width="24.000000" height="24.000000" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <defs/>
+                <path id="icon2" d="M12 2C6.47 2 2 6.46997 2 12C2 17.53 6.47 22 12 22C17.53 22 22 17.53 22 12C22 6.46997 17.53 2 12 2ZM12 20C7.59 20 4 16.4099 4 12C4 7.59009 7.59 4 12 4C16.41 4 20 7.59009 20 12C20 16.4099 16.41 20 12 20ZM12 10.5901L15.59 7L17 8.40991L13.41 12L17 15.5901L15.59 17L12 13.4099L8.41 17L7 15.5901L10.59 12L7 8.40991L8.41 7L12 10.5901Z" fill="#FFFFFF" fill-opacity="0.400000" fill-rule="evenodd"/>
+              </svg>
+            </button>
+            <button type="submit" class="btn btn--background form__btn">
+              Send questions
+            </button>
+          </form>
+          <div class="questions__photo">
+            <img src="img/Mask-group.png" width="383" height="829" alt="questions chat">
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container footer__container">
+        <div class="footer__div">
+          <div class="footer__wrapper flex">
+            <a class="logo footer__logo">
+              <img src="img/logo.svg" class="logo__img" width="68" height="22">
+            </a>
+            <div class="nav footer__nav">
+              <ul class="nav__list nav__list--footer list flex">
+                <li class="nav__item">
+                  <a href="#" class="nav__link nav__link--footer">About us</a></li>
+                <li class="nav__item">
+                  <a href="#" class="nav__link nav__link--footer">Tags Samples</a></li>
+                <li class="nav__item">
+                  <a href="#" class="nav__link nav__link--footer">Pricing</a></li>
+                <li class="nav__item">
+                  <a href="#" class="nav__link nav__link--footer">Reviews</a></li>
+                <li class="nav__item">
+                  <a href="#" class="nav__link nav__link--footer">FAQ</a></li>
+                <li class="nav__item">
+                  <a href="#" class="nav__link nav__link--footer">Contacts</a></li>
+              </ul>
+            </div>
+            <ul class="social list flex">
+              <li class="social__item">
+                <a class="social__link" href="#">
+                  <img class="social__img" src="img/youtube.svg" width="27" height="27" alt="Youtube">
+              </a>
+            </li>
+              <li class="social__item">
+                <a class="social__link" href="#">
+                  <img class="social__img" src="img/bxl_instagram.svg" width="27" height="27" alt="instagram">
+                </a>
+              </li>
+              <li class="social__item">
+                <a class="social__link" href="#">
+                  <img class="social__img" src="img/facebook1.svg" width="27" height="27" alt="Facebook">
+                </a>
+              </li>
+              <li class="social__item"><a class="social__link" href="#">
+                <img class="social__img" src="img/twitter.svg" width="27" height="27" alt="twitter">
+              </a>
+            </li>
+            </ul>
+          </div>
+                  <ul class="copyright list flex">
+                    <li class="copyright__item">
+                      <a class="copyright__link">
+                        Terms of service
+                      </a>
+                    </li>
+                    <li class="copyright__item">
+                      <a class="copyright__link">
+                        Privacy policy
+                      </a>
+                    </li>
+                    <li class="copyright__item">
+                      <a class="copyright__link">
+                        Refund policy
+                      </a>
+                    </li>
+                  </ul>
+        </div>
+      </div>
+    </footer>
+  </main>
+</body>
+</html>
