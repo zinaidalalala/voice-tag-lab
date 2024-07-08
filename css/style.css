@@ -112,6 +112,9 @@ body {
   padding: 15px 20px;
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 30px;
+  position: fixed;
+  width: 70%;
+  z-index: 100;
 }
 
 .logo {
@@ -151,15 +154,20 @@ body {
 /* hero */
 
 .main-title {
-  margin-bottom: 8px;
+  margin-bottom: 48px;
   padding-left: 10px;
   font-size: 80px;
   line-height: 120%;
-  white-space: pre;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 524px;
 }
 
 .hero {
+  padding: 30px;
   padding-left: 18px;
+  padding-top: 150px;
 }
 
 .hero__secure {
@@ -186,6 +194,12 @@ body {
   border-radius: 60px;
   background: -o-linear-gradient(39deg, #0958fa 13.86%, #09fa32 93.66%);
   background: linear-gradient(51deg, #0958fa 13.86%, #09fa32 93.66%);
+}
+
+button:hover,
+li:hover {
+  animation: pulse;
+  animation-duration: 0.8s;
 }
 
 /* rules */
@@ -1330,4 +1344,14 @@ td {
   .reviews {
     padding-left: 0;
   }
+}
+
+#progressBar {
+  position: fixed;
+  width: 0%;
+  height: 7px;
+  background-color: #4caf50;
+  top: 0;
+  left: 0;
+  z-index: 99;
 }
