@@ -13,10 +13,12 @@ html {
 a {
   text-decoration: none;
   color: inherit;
+  cursor: pointer;
 }
 
 img {
   max-width: 100%;
+  height: auto;
   display: block;
 }
 
@@ -91,7 +93,7 @@ body {
 /* header */
 
 .header {
-  background-image: url("../img/header--background@1x.jpg");
+  background-image: url("images/header--background@1x.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -309,27 +311,27 @@ li:hover {
 }
 
 .about__item:first-child {
-  background-image: url("../img/not/about-1.png");
+  background-image: url("images/about-1.png");
 }
 
 .about__item:nth-child(2) {
-  background-image: url("../img/not/about-2.png");
+  background-image: url("images/about-2.png");
 }
 
 .about__item:nth-child(3) {
-  background-image: url("../img/not/about-3.png");
+  background-image: url("images/about-3.png");
 }
 
 .about__item:nth-child(4) {
-  background-image: url("../img/not/about-4.png");
+  background-image: url("images/about-4.png");
 }
 
 .about__item:nth-child(5) {
-  background-image: url("../img/not/about-5.png");
+  background-image: url("images/about-5.png");
 }
 
 .about__item:nth-child(6) {
-  background-image: url("../img/not/about-6.png");
+  background-image: url("images/about-6.png");
 }
 
 .text-link {
@@ -358,6 +360,10 @@ li:hover {
   gap: 30px;
   margin-bottom: 39px;
   max-width: 1058px;
+  overflow: hidden;
+  max-width: 100%;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .tags__list {
@@ -382,7 +388,7 @@ li:hover {
 
 .tags__item--male {
   position: relative;
-  background-image: url("../img/not/tags-man@1x.jpg");
+  background-image: url("images/tags-man@1x.jpg");
 }
 
 .tags__item--male::after {
@@ -395,7 +401,7 @@ li:hover {
   height: 52px;
   border-radius: 24px;
   background-color: rgba(255, 255, 255, 0.12);
-  background-image: url("../img/not/man-voice-1.png");
+  background-image: url("images/man-voice-1.png");
   background-repeat: no-repeat;
   background-size: 233px 40px, 257px 52px;
   background-position: center;
@@ -412,7 +418,7 @@ li:hover {
   height: 52px;
   border-radius: 24px;
   background-color: rgba(255, 255, 255, 0.12);
-  background-image: url("../img/not/man-voice-2.png");
+  background-image: url("images/man-voice-2.png");
   background-repeat: no-repeat;
   background-size: 233px 40px, 257px 52px;
   background-position: center;
@@ -421,7 +427,7 @@ li:hover {
 
 .tags__item--female {
   position: relative;
-  background-image: url("../img/not/tags-woman@1x.jpg");
+  background-image: url("images/tags-woman@1x.jpg");
 }
 
 .tags__item--female::after {
@@ -434,7 +440,7 @@ li:hover {
   height: 52px;
   border-radius: 24px;
   background-color: rgba(255, 255, 255, 0.12);
-  background-image: url("../img/not/woman-voice-1.png");
+  background-image: url("images/woman-voice-1.png");
   background-repeat: no-repeat;
   background-size: 233px 40px, 257px 52px;
   background-position: center;
@@ -451,7 +457,7 @@ li:hover {
   height: 52px;
   border-radius: 24px;
   background-color: rgba(255, 255, 255, 0.12);
-  background-image: url("../img/not/woman-voice-2.png");
+  background-image: url("images/woman-voice-2.png");
   background-repeat: no-repeat;
   background-size: 233px 40px, 257px 52px;
   background-position: center;
@@ -461,7 +467,7 @@ li:hover {
 .tags__item--anime {
   position: relative;
   min-height: 135px;
-  background-image: url("../img/not/tags-anime@1x.jpg");
+  background-image: url("images/tags-anime@1x.jpg");
 }
 
 .tags__item--anime::after {
@@ -474,7 +480,7 @@ li:hover {
   height: 52px;
   border-radius: 24px;
   background-color: rgba(255, 255, 255, 0.12);
-  background-image: url("../img/not/anime-voice.png");
+  background-image: url("images/anime-voice.png");
   background-repeat: no-repeat;
   background-size: 233px 40px, 257px 52px;
   background-position: center;
@@ -484,7 +490,7 @@ li:hover {
 .tags__item--kid {
   position: relative;
   min-height: 135px;
-  background-image: url("../img/not/tag-kids@1x.jpg");
+  background-image: url("images/tag-kids@1x.jpg");
 }
 
 .tags__item--kid::after {
@@ -497,7 +503,7 @@ li:hover {
   height: 52px;
   border-radius: 24px;
   background-color: rgba(255, 255, 255, 0.12);
-  background-image: url("../img/not/kid-voice.png");
+  background-image: url("images/kid-voice.png");
   background-repeat: no-repeat;
   background-size: 233px 40px, 257px 52px;
   background-position: center;
@@ -547,7 +553,7 @@ li:hover {
   flex-direction: column;
   gap: 16px;
   padding-left: 12px;
-  list-style-image: url("../img/not/list-style.svg");
+  list-style-image: url("images/list-style.svg");
 }
 
 .futures__item-title {
@@ -600,7 +606,7 @@ li:hover {
 .offers__list {
   margin-bottom: 18px;
   padding-left: 14px;
-  list-style-image: url("../img/not/list-style.svg");
+  list-style-image: url("images/list-style.svg");
 }
 
 .offers__descr {
@@ -896,42 +902,42 @@ td {
 
 .reviews__item--first::after {
   top: 0;
-  background-image: url("../img/Ellipse1.jpeg");
+  background-image: url("images/Ellipse1.jpeg");
 }
 
 .reviews__item--second::after {
   top: -2px;
-  background-image: url("../img/Ellipse2.jpeg");
+  background-image: url("images/Ellipse2.jpeg");
 }
 
 .reviews__item--third::after {
   top: -6px;
-  background-image: url("../img/Ellipse3.jpeg");
+  background-image: url("images/Ellipse3.jpeg");
 }
 
 .reviews__item--fourth::after {
   top: 28px;
-  background-image: url("../img/Ellipse4.jpeg");
+  background-image: url("images/Ellipse4.jpeg");
 }
 
 .reviews__item--fifth::after {
   top: 11px;
-  background-image: url("../img/Ellipse5.jpeg");
+  background-image: url("images/Ellipse5.jpeg");
 }
 
 .reviews__item--sixth::after {
   top: -6px;
-  background-image: url("../img/Ellipse6.jpeg");
+  background-image: url("images/Ellipse6.jpeg");
 }
 
 .reviews__item--seventh::after {
   top: 27px;
-  background-image: url("../img/Ellipse7.jpeg");
+  background-image: url("images/Ellipse7.jpeg");
 }
 
 .reviews__item--eighth::after {
   top: -2px;
-  background-image: url("../img/Ellipse8.jpeg");
+  background-image: url("images/Ellipse8.jpeg");
 }
 
 /* faq */
@@ -984,7 +990,7 @@ td {
 
 .revision__list {
   padding-left: 14px;
-  list-style-image: url(../img/Ellipse-list.svg);
+  list-style-image: url(images/Ellipse-list.svg);
   color: rgba(255, 255, 255, 0.8);
   font-size: 16px;
   line-height: 120%;
@@ -997,7 +1003,7 @@ td {
 
 .revision__list--second {
   max-width: 470px;
-  list-style-image: url(../img/Ellipse-list-red.svg);
+  list-style-image: url(images/Ellipse-list-red.svg);
 }
 
 .revision__item--second:first-child {
@@ -1073,6 +1079,10 @@ td {
   background-color: rgb(28, 27, 31);
 }
 
+.form .btn--close {
+  animation: none;
+}
+
 .form__svg {
   position: absolute;
   right: 29px;
@@ -1109,7 +1119,7 @@ td {
   width: 428px;
   height: 865px;
   border-radius: 60px;
-  background-image: url(../img/phone-photo-wrapper.png);
+  background-image: url(images/phone-photo-wrapper.png);
   background-repeat: no-repeat;
   z-index: 1;
 }

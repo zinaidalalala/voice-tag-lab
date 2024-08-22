@@ -1,0 +1,32 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "gulp --gulpfile gulpfile.mjs dev",
+    "build": "gulp --gulpfile gulpfile.mjs build"
+  },
+  "author": "me",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-env": "^7.25.4",
+    "browser-sync": "^3.0.2",
+    "del": "^7.1.0",
+    "gulp-autoprefixer": "^9.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-cheerio": "^1.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-cli": "^3.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-fontmin": "^0.7.4",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-imagemin": "^9.1.0",
+    "gulp-notify": "^4.0.0",
+    "gulp-replace": "^1.1.4",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-svg-sprite": "^2.0.3",
+    "gulp-svgmin": "^4.1.0",
+    "gulp-terser": "^2.1.0"
+  }
+}
